@@ -1,0 +1,5 @@
+
+rm concat.cpp
+cat *.cpp > concat.cpp
+
+g++ concat.cpp -o test
